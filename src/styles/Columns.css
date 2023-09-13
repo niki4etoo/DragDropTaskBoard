@@ -1,0 +1,46 @@
+.container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.column {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    width: 22.5%;
+    height: 60vh;
+}
+
+
+.column.story {
+    border: 1px solid lightblue;
+    color: lightblue;
+}
+
+.column.progress {
+    border: 1px solid lightgreen;
+    color: lightgreen;
+}
+
+.column.test {
+    border: 1px solid goldenrod;
+    color: goldenrod;
+}
+
+.column.done {
+    border: 1px solid forestgreen;
+    color: forestgreen;
+}

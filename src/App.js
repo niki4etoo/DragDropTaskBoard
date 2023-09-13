@@ -1,15 +1,12 @@
 import './App.css';
 
+import Columns from './components/Columns';
+
 function App() {
   return (
     <div className="App">
-
-      <div className="container">
-        <div className="column" id="column-story"></div>
-        <div className="column" id="column-progress"></div>
-        <div className="column" id="column-test"></div>
-        <div className="column" id="column-done"></div>
-      </div>
+      <header>Task Board v0.0.1</header>
+      <Columns />
     </div>
   );
 }
